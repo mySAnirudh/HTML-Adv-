@@ -1,0 +1,10 @@
+#sam{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    /* text-decoration: underline; */
+    /* text-decoration:overline; */
+    /* text-decoration: line-through; */
+    text-decoration: solid;
+}
+

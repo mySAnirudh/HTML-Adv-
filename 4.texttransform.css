@@ -1,0 +1,18 @@
+#sam{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+  
+     /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+    /* text-transform: uppercase; */
+    /* text-transform:none; */
+
+    /* Line Heigeh : gape between text */
+
+    line-height: 40px;
+
+
+}
+
