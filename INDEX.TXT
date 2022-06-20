@@ -1,0 +1,20 @@
+Core Attributes
+The four core attributes that can be used on the majority of HTML elements (although not 
+all) are:
+ Id
+ Title
+ Class
+ Style
+
+Internationalization Attributes
+There are three internationalization attributes, which are available for most (although not 
+all) XHTML elements.
+
+ dir
+ lang
+ xml:lang
+
+1. DIR :- Direction Attributes
+ltr Left to right (the default value)
+rtl Right to left (for languages such as Hebrew or Arabic that are read right to left)
+
