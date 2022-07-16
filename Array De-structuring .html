@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let names = ['Mohtashim','Kannan','Kiran']
+ let [n1,n2,n3] = names;
+ console.log(n1)
+ console.log(n2)
+ console.log(n3);
+ //rest operator with array destructuring
+ let locations=['Mumbai','Hyderabad','Chennai']
+ let [l1,...otherValues] =locations
+ console.log(l1)
+ console.log(otherValues)
+ 
+ //variables already declared
+ let name1,name2;
+ [name1,name2] =names
+ console.log(name1)
+ console.log(name2)
+ //swapping 
+ let first=10,second=20;
+ [second,first] = [first,second]
+ console.log("second is ",second) //10
+ console.log("first is ",first) //20
+
+    </script>
+</body>
+</html>
