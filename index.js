@@ -1,27 +1,13 @@
-// First we are installing Express jS via terminal 
+console.log(" This is Asynchronous operation 1")
 
-const exoress=require('express');
-const app=exoress();
+console.log(" This is Asynchronous operation 2")
 
-app.get('',(req,resp)=>{ // In this having two parameters 1/Request 2/Response 
-   resp.send('Hello, this is Home Page ');
-}) ;// get is a methods it's provide routs 
+setTimeout(()=>{
+    
+console.log(" This is Asynchronous operation 3")
 
-app.get('/Profile',(req,resp)=>{
-    resp.send('Hello, this is Profile Page ');
-}) ;
+},2000)
+console.log(" This is Asynchronous operation 4")
 
-app.get('/About',(req,resp)=>{
-    resp.send('Hello, this is Abut US Page ');
-}) ;
+console.log(" This is Asynchronous operation 5")
 
-app.get('/Profile',(req,resp)=>{
-    resp.send('Hello, this is Profile Page ');
-}) ;
-
-app.listen(5000);
-
-//USE (nodemoon .\index.js) Use the command to auto update then 
-// THen write in browser localhost:5000 
-// Then also for other write (localhost:5000/Anout )
-// For another things 

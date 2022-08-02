@@ -1,16 +1,21 @@
 
 
-    *** Express JS ***
-    1. What is Express JS
-    2. Install Express JS
-    3. Make Example with Express JS
+    *** Asynchronous Basics in Node js ***
 
-    ** Express JS is Frameworks of Node JS
+  ** Asynchronous amd Synchronous 
 
-    ** Express JS is use to save time 
+  ** Synchronous :- In Synchronous operation tasks are performed one at a time 
+       [ USER ] [ PRODUCT ] [ CITIES ]
 
-    ** Express in is use to make easily API
+       So, here first performed in USER all tasks then moved on second tasks
 
-    ** Routs, Middleware, RequestHandling, Webpages, CSS we can apply easily with less code 
 
-    ** 
+  ** Asynchronous :- In Asynchronous operation, second tasks not wait to finish first tasks
+
+       [ USER ]
+        [ PRODUCT ]
+         [ CITIES ]
+
+       So, here performed all task at a time and jisme sabse kam data hoga uska output sabse pahile 
+         show krega 
+         
