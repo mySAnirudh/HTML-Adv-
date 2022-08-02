@@ -1,8 +1,16 @@
 
 
-   *** Render HTML and JSON ***
-   1. How HTML tags
-   2. Show json Data
-   3. Link Page 
+    *** Express JS ***
+    1. What is Express JS
+    2. Install Express JS
+    3. Make Example with Express JS
 
-   ** Render :- Which means page display karna 
+    ** Express JS is Frameworks of Node JS
+
+    ** Express JS is use to save time 
+
+    ** Express in is use to make easily API
+
+    ** Routs, Middleware, RequestHandling, Webpages, CSS we can apply easily with less code 
+
+    ** 
