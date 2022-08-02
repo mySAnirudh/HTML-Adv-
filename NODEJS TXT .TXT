@@ -1,0 +1,8 @@
+
+
+   *** Render HTML and JSON ***
+   1. How HTML tags
+   2. Show json Data
+   3. Link Page 
+
+   ** Render :- Which means page display karna 
