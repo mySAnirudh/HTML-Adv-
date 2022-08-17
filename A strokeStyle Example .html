@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+ 
+        <style>
+        #test {
+        width: 100px;
+        height:100px;
+        margin: 0px auto;
+        }
+        </style>
+        <script type="text/javascript">
+        function drawShape(){
+        
+        // get the canvas element using the DOM
+        var canvas = document.getElementById('mycanvas');
+        
+        // Make sure we don't execute when canvas isn't supported
+        if (canvas.getContext){
+        
+        // use getContext to use the canvas for drawing
+        var ctx = canvas.getContext('2d');
+        
+        // Create a pattern
+        for (var i=0;i<10;i++){
+        
+        for (var j=0;j<10;j++){
+        ctx.strokeStyle='rgb(255,'+ Math.floor(50-2.5*i)+','+
+       Math.floor(155 - 22.5 * j ) + ')';
+        ctx.beginPath();
+        
+        ctx.arc(1.5+j*25, 1.5 + i*25,10,10,Math.PI*5.5, true);
+        ctx.stroke();
+        }
+        }
+        }
+        else {
+        alert('You need Safari or Firefox 1.5+ to see this demo.');
+        }
+        }
+</script>
+</head>
+<body id="test" onload="drawShape();">
+<canvas id="mycanvas"></canvas>
+</body> 
+</html>
+      
