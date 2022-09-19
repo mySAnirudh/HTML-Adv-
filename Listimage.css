@@ -1,0 +1,13 @@
+ul{list-style-image: url("imgaro.png");
+
+}
+
+ol{
+
+    list-style-type: decimal-leading-zero;
+}
+
+li{
+    border: 1px solid red ;
+    list-style-position: inside;  /*It's ues to make your image inside the border */
+}
