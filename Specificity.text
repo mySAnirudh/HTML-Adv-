@@ -1,0 +1,21 @@
+
+   Question :-
+   If one element us styled by more than one rule, which style will be spplicable ?
+
+   >>...Ans : Specificity
+
+   >>More specific rule will get more value (More:Detail)
+
+   General Rule :-
+   >>  !important will override every thing
+   >> Inline can override everything xpect !important
+   >> External will work according to Specificity
+
+
+   Specificity Rule :-
+   >> (#) ID Selector has heighest value
+
+   >> (*)  Universal Selector has loverst value
+
+   Note :-
+   If same rule written two or more times in external sheet than last rule will be applicable.
