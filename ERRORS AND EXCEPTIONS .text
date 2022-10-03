@@ -1,0 +1,32 @@
+
+     **** Errors and Exceptions ****
+
+There are three types of errors in programming: (a) Syntax Errors, (b) Runtime 
+Errors, and (c) Logical Errors.
+Syntax Errors
+Syntax errors, also called parsing errors, occur at compile time in traditional 
+programming languages and at interpret time in JavaScript.
+For example, the following line causes a syntax error because it is missing a 
+closing parenthesis.
+<script type="text/javascript">
+<!--
+window.print(;
+//-->
+</script>
+When a syntax error occurs in JavaScript, only the code contained within the 
+same thread as the syntax error is affected and the rest of the code in other 
+threads gets executed assuming nothing in them depends on the code 
+containing the error.
+Runtime Errors
+Runtime errors, also called exceptions, occur during execution (after 
+compilation/interpretation).
+For example, the following line causes a runtime error because here the syntax 
+is correct, but at runtime, it is trying to call a method that does not exist.
+<script type="text/javascript">
+<!--
+window.printme();
+//-->
+</script>
+Exceptions also affect the thread in which they occur, allowing other JavaScript 
+threads to continue normal execution.
+
