@@ -1,0 +1,139 @@
+
+
+    **** DOM ****
+
+Every web page resides inside a browser window which can be considered as an 
+object.
+A Document object represents the HTML document that is displayed in that 
+window. The Document object has various properties that refer to other objects 
+which allow access to and modification of document content.
+The way a document content is accessed and modified is called the Document 
+Object Model, or DOM. The Objects are organized in a hierarchy. This 
+hierarchical structure applies to the organization of objects in a Web document.
+ Window object: Top of the hierarchy. It is the outmost element of the 
+object hierarchy.
+ Document object: Each HTML document that gets loaded into a window 
+becomes a document object. The document contains the contents of the 
+page.
+ Form object: Everything enclosed in the <form>...</form> tags sets the 
+form object.
+ Form control elements: The form object contains all the elements 
+defined for that object such as text fields, buttons, radio buttons, and 
+checkboxes.
+
+There are several DOMs in existence. The following sections explain each of
+these DOMs in detail and describe how you can use them to access and modify 
+document content.
+ The Legacy DOM: This is the model which was introduced in early versions 
+of JavaScript language. It is well supported by all browsers, but allows access 
+only to certain key portions of documents, such as forms, form elements, and 
+images.
+ The W3C DOM: This document object model allows access and modification 
+of all document content and is standardized by the World Wide Web 
+Consortium (W3C). This model is supported by almost all the modern 
+browsers.
+ The IE4 DOM: This document object model was introduced in Version 4 of 
+Microsoft's Internet Explorer browser. IE 5 and later versions include support 
+for most basic W3C DOM features.
+The Legacy DOM
+This is the model which was introduced in early versions of JavaScript language. 
+It is well supported by all browsers, but allows access only to certain key 
+portions of documents, such as forms, form elements, and images.
+This model provides several read-only properties, such as title, URL, and 
+lastModified provide information about the document as a whole. Apart from 
+that, there are various methods provided by this model which can be used to set 
+and get document property values.
+Document Properties in Legacy DOM
+Here is a list of the document properties which can be accessed using Legacy 
+DOM.
+S.No Property and Description
+1
+alinkColor
+Deprecated - A string that specifies the color of activated links.
+Ex: document.alinkColor
+2
+anchors[ ]
+An array of Anchor objects, one for each anchor that appears in 
+the document
+Ex: document.anchors[0], document.anchors[1] and so on
+3
+applets[ ]
+An array of Applet objects, one for each applet that appears in 
+the document
+Ex: document.applets[0], document.applets[1] and so on
+4
+bgColor
+Deprecated - A string that specifies the background color of the 
+document.
+Ex: document.bgColor
+5
+Cookie
+A string valued property with special behavior that allows the 
+cookies associated with this document to be queried and set.
+Ex: document.cookie
+6
+Domain
+A string that specifies the Internet domain the document is 
+from. Used for security purpose.
+Ex: document.domain
+7
+embeds[ ]
+An array of objects that represent data embedded in the 
+document with the <embed> tag. A synonym for plugins []. 
+Some plugins and ActiveX controls can be controlled with 
+JavaScript code.
+Ex: document.embeds[0], document.embeds[1] and so on
+8
+fgColor
+A string that specifies the default text color for the document
+Ex: document.fgColor
+
+9
+forms[ ]
+An array of Form objects, one for each HTML form that appears 
+in the document.
+Ex: document.forms[0], document.forms[1] and so on
+10
+images[ ]
+An array of Image objects, one for each image that is 
+embedded in the document with the HTML <img> tag.
+Ex: document.images[0], document.images[1] and so on
+11
+lastModified
+A read-only string that specifies the date of the most recent 
+change to the document
+Ex: document.lastModified
+12
+linkColor
+Deprecated - A string that specifies the color of unvisited links
+Ex: document.linkColor
+13
+links[ ]
+It is a document link array.
+Ex: document.links[0], document.links[1] and so on
+14
+Location
+The URL of the document. Deprecated in favor of the URL 
+property.
+Ex: document.location
+15
+plugins[ ]
+A synonym for the embeds[ ]
+Ex: document.plugins[0], document.plugins[1] and so on
+16
+Referrer
+A read-only string that contains the URL of the document, if 
+any, from which the current document was linked.
+Ex: document.referrer
+17
+Title
+The text contents of the <title> tag.
+Ex: document.title
+18
+URL
+A read-only string that specifies the URL of the document.
+Ex: document.URL
+19
+vlinkColor
+Deprecated - A string that specifies the color of visited links.
+Ex: document.vlinkColor
