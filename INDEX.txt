@@ -1,25 +1,21 @@
 
 
- 
-     **** BOOLEAN ****
+ **** MATH ****
 
-     The Boolean object represents two values, either "true" or "false". If the value parameter 
-is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has 
-an initial value of false.
-Use the following syntax to create a boolean object. 
-var val = new Boolean(value);
-Boolean Properties
-Following is a list of the properties of Boolean object.
+ The math object provides you properties and methods for mathematical constants and 
+functions. Unlike other global objects, Math is not a constructor. All the properties and 
+methods of Math are static and can be called by using Math as an object without creating 
+it.
+Math Properties
+Following is a list of all Math properties and its description.
 Property Description
-constructor Returns a reference to the Boolean function that created the 
-object. 
-prototype The prototype property allows you to add properties and methods 
-to an object. 
-In the following sections, we will look at a few examples to illustrate the properties of 
-Boolean object. 
-constructor ()
-Javascript Boolean constructor() method returns a reference to the Boolean function that 
-created the instance's prototype.
-Use the following syntax to create a Boolean constructor() method. It returns the function 
-that created this object's instance.
-boolean.constructor()
+E Euler's constant and the base of natural logarithms, approximately 2.718
+LN2 Natural logarithm of 2, approximately 0.693
+LN10 Natural logarithm of 10, approximately 2.302
+LOG2E Base 2 logarithm of E, approximately 1.442
+LOG10E Base 10 logarithm of E, approximately 0.434
+PI Ratio of the circumference of a circle to its diameter, approximately 
+3.14159
+SQRT1_2 Square root of 1/2; equivalently, 1 over the square root of 2, 
+approximately 0.707
+SQRT2 Square root of 2, approximately 1.414
