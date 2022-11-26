@@ -1,21 +1,11 @@
 
 
-    *** Asynchronous Basics in Node js ***
+   *** Fundaments of Node JS *** 
 
-  ** Asynchronous amd Synchronous 
+   1. JavaScript Fundaments for node js
+   
+   2. Conditions, Loops and Array
 
-  ** Synchronous :- In Synchronous operation tasks are performed one at a time 
-       [ USER ] [ PRODUCT ] [ CITIES ]
+   3. The important function and variables from another file
 
-       So, here first performed in USER all tasks then moved on second tasks
-
-
-  ** Asynchronous :- In Asynchronous operation, second tasks not wait to finish first tasks
-
-       [ USER ]
-        [ PRODUCT ]
-         [ CITIES ]
-
-       So, here performed all task at a time and jisme sabse kam data hoga uska output sabse pahile 
-         show krega 
-         
+   4
