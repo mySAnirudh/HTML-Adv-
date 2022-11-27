@@ -1,14 +1,12 @@
-// Making basic server
+const http =require('http');
+const { json } = require('stream/consumers');
+http.createServer((req,resp)=>{
+    resp.writeHead(200,{'Content-Type':'application\json'});
+    resp.write(JSON.stringify({name:'Samrat Singh', email:'mynsamrat@gmail.com'}));
+    resp.end();
+}).listen(5002); // It's start after run in cmd "nodemon start " this cammand 
+// Then run in broser then it's show the output 
 
- const http=require('http'); 
-//
 
-const { text } = require('stream/consumers');
-
- // Http module kay karta hai:- Server ke request and response ko handle karta hai 
-
- http.createServer((req,resp)=>{
-     resp.write("<h1>Hello Samrat</h1>");
-     resp.end()
- }).listen(4500);  //It's takes function as a parameter 
-
+// RUN in Thunder Client by this code in Get method :- http://localhost:5000
+// Don't use https 

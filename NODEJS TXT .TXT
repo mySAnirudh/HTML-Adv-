@@ -1,16 +1,11 @@
 
-   ** NODEMOON ** 
-    
-   1. What is Nodemon package?
 
-   2. How to install Nodemon?
+   *** Making a Simple API *** 
 
-   3. How to use it?
- 
-   ** Nodemon || Time saving module 
+   1\ Make a server 
+   2\ Create header and API body
+   3\ Create an API with static data
+   4\ Put data in another file
 
-   -> Nodemon module use karke ham time save kar sakte hai
 
-   -> For install Nodemon Cammand :-(npm i nodemon) use (-g for global install) 
-    when we use -g then it's install globali in out system 
-    so use (npm i nodemon -g)
+   ** Read about http 300 header all details 
