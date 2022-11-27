@@ -1,12 +1,8 @@
-const http =require('http');
-const { json } = require('stream/consumers');
-http.createServer((req,resp)=>{
-    resp.writeHead(200,{'Content-Type':'application\json'});
-    resp.write(JSON.stringify({name:'Samrat Singh', email:'mynsamrat@gmail.com'}));
-    resp.end();
-}).listen(5002); // It's start after run in cmd "nodemon start " this cammand 
-// Then run in broser then it's show the output 
+// Here simple way to create file 
 
+const fs=require('fs'); // fs (file system ): It's js node module it's called file system
 
-// RUN in Thunder Client by this code in Get method :- http://localhost:5000
-// Don't use https 
+fs.writeFileSync('apple.txt','this is file creating'); 
+
+// run in terminal :node .\index.js
+// THen auto create fiel with name apple.txt
