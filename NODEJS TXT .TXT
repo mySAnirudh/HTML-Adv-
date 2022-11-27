@@ -1,8 +1,16 @@
 
-    ** Make Basic Server Output and Bowser **
+   ** NODEMOON ** 
+    
+   1. What is Nodemon package?
 
-  1. Make Baisc Server 
-  2. Function as parameter in node
-  3. Arrow Function
-  4. Get Output on Browser 
+   2. How to install Nodemon?
 
+   3. How to use it?
+ 
+   ** Nodemon || Time saving module 
+
+   -> Nodemon module use karke ham time save kar sakte hai
+
+   -> For install Nodemon Cammand :-(npm i nodemon) use (-g for global install) 
+    when we use -g then it's install globali in out system 
+    so use (npm i nodemon -g)
