@@ -1,23 +1,25 @@
 
-   
-      ***** DIALOG BOXES ****
 
+ 
+     **** BOOLEAN ****
 
-    >> Different types of dialog boxes in JavaScript 
-
-Alert dialog box The alert () method is used to display an alert box with a message. The dialog box will block the...
-Confirmation dialog box The confirm () dialog box is used to get a confirmation for specific user action. <!DOCTYPE...
-Prompt dialog box The prompt() dialog box that can get the input from the user. This will return the null value when you click on
- the Cancel button.
-
-
-
-    JavaScript supports three important types of dialog boxes. These dialog boxes can be used 
-to raise and alert, or to get confirmation on any input or to have a kind of input from the 
-users. Here we will discuss each dialog box one by one.
-Alert DialogBox
-An alert dialog box is mostly used to send a warning message to the users. For example, 
-if one input field requires to enter some text but the user does not provide any input, then 
-as a part of validation, you can use an alert box to send a warning message. 
-Nonetheless, an alert box can still be used for friendlier messages. Alert box provides only 
-one button "OK" to select and proceed.
+     The Boolean object represents two values, either "true" or "false". If the value parameter 
+is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has 
+an initial value of false.
+Use the following syntax to create a boolean object. 
+var val = new Boolean(value);
+Boolean Properties
+Following is a list of the properties of Boolean object.
+Property Description
+constructor Returns a reference to the Boolean function that created the 
+object. 
+prototype The prototype property allows you to add properties and methods 
+to an object. 
+In the following sections, we will look at a few examples to illustrate the properties of 
+Boolean object. 
+constructor ()
+Javascript Boolean constructor() method returns a reference to the Boolean function that 
+created the instance's prototype.
+Use the following syntax to create a Boolean constructor() method. It returns the function 
+that created this object's instance.
+boolean.constructor()
