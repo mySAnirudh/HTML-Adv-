@@ -1,34 +1,23 @@
- 
 
-     **** FUNCTION ****
+   
+      ***** DIALOG BOXES ****
 
-     Functions are the building blocks of readable, maintainable, and reusable code. Functions 
-are defined using the function keyword. Following is the syntax for defining a standard 
-function.
-function function_name()
-{
-// function body
-}
-To force execution of the function, it must be called. This is called as function invocation. 
-Following is the syntax to invoke a function.
-function_name()
-Example: Simple function definition
-//define a function
-function test()
-{
- console.log("function called")
-}
-//call the function
-test()
-The example defines a function test(). A pair of delimiters ( { } ) define the function body. 
-It is also called as the function scope. A function must be invoked to force its execution. 
-The following output is displayed on successful execution of the above code.
-function called
+
+    >> Different types of dialog boxes in JavaScript 
+
+Alert dialog box The alert () method is used to display an alert box with a message. The dialog box will block the...
+Confirmation dialog box The confirm () dialog box is used to get a confirmation for specific user action. <!DOCTYPE...
+Prompt dialog box The prompt() dialog box that can get the input from the user. This will return the null value when you click on
+ the Cancel button.
 
 
 
-
-Lambda Expression
-It is an anonymous function expression that points to a single line of code. Following is 
-the syntax for the same.
-( [param1, parma2,…param n] )=>statement;
+    JavaScript supports three important types of dialog boxes. These dialog boxes can be used 
+to raise and alert, or to get confirmation on any input or to have a kind of input from the 
+users. Here we will discuss each dialog box one by one.
+Alert DialogBox
+An alert dialog box is mostly used to send a warning message to the users. For example, 
+if one input field requires to enter some text but the user does not provide any input, then 
+as a part of validation, you can use an alert box to send a warning message. 
+Nonetheless, an alert box can still be used for friendlier messages. Alert box provides only 
+one button "OK" to select and proceed.
