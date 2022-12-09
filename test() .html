@@ -10,12 +10,11 @@
     <script>
         var str = "Javascript is an interesting scripting language";
 var re = new RegExp( "script", "g" );
-var result = re.toString(str);
+var result = re.test(str);
 console.log("Test 1 - returned value : " + result); 
-re = new RegExp( "/", "g" );
-var result = re.toString(str);
-console.log("Test 2 - returned value : " + result)
-
+re = new RegExp( "pushing", "g" );
+var result = re.test(str);
+console.log("Test 2 - returned value : " + result);
     </script>
 </body>
 </html>
