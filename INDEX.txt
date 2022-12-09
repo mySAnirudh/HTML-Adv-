@@ -1,25 +1,37 @@
 
-
  
-     **** BOOLEAN ****
+      **** ARRAYS **** 
 
-     The Boolean object represents two values, either "true" or "false". If the value parameter 
-is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has 
-an initial value of false.
-Use the following syntax to create a boolean object. 
-var val = new Boolean(value);
-Boolean Properties
-Following is a list of the properties of Boolean object.
-Property Description
-constructor Returns a reference to the Boolean function that created the 
-object. 
-prototype The prototype property allows you to add properties and methods 
-to an object. 
-In the following sections, we will look at a few examples to illustrate the properties of 
-Boolean object. 
-constructor ()
-Javascript Boolean constructor() method returns a reference to the Boolean function that 
-created the instance's prototype.
-Use the following syntax to create a Boolean constructor() method. It returns the function 
-that created this object's instance.
-boolean.constructor()
+   >>> An JavaScript, array is a single variable that is used to store
+    different elements. It is often used when we want to store list of 
+    elements and access them by a single variable. Unlike most languages 
+    where array is a reference to the multiple variable, in JavaScript array
+     is a single variable that stores multiple elements.
+    
+
+    The use of variables to store values poses the following limitations:
+ Variables are scalar in nature. In other words, a variable declaration can only 
+contain a single at a time. This means that to store n values in a program, n
+variable declarations will be needed. Hence, the use of variables is not feasible 
+when one needs to store a larger collection of values. 
+ Variables in a program are allocated memory in random order, thereby making it 
+difficult to retrieve/read the values in the order of their declaration.
+JavaScript introduces the concept of arrays to tackle the same.
+An array is a homogenous collection of values. To simplify, an array is a collection of values 
+of the same data type. It is a user-defined type. 
+Features of anArray
+ An array declaration allocates sequential memory blocks.
+ Arrays are static. This means that an array once initialized cannot be resized.
+ Each memory block represents an array element.
+ Array elements are identified by a unique integer called as the subscript/index of 
+the element.
+ Arrays too, like variables, should be declared before they are used.
+ Array initialization refers to populating the array elements. 
+ Array element values can be updated or modified but cannot be deleted. 
+Declaring and Initializing Arrays
+To declare and initialize an array in JavaScript use the following syntax:
+var array_name; //declaration
+array_name=[val1,val2,valn..] //initialization
+OR
+var array_name=[val1,val2…valn]
+Note: The pair of [] is called the dimension of the array.
