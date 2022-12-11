@@ -1,37 +1,28 @@
 
  
-      **** ARRAYS **** 
+    **** NUMBER ****
 
-   >>> An JavaScript, array is a single variable that is used to store
-    different elements. It is often used when we want to store list of 
-    elements and access them by a single variable. Unlike most languages 
-    where array is a reference to the multiple variable, in JavaScript array
-     is a single variable that stores multiple elements.
-    
-
-    The use of variables to store values poses the following limitations:
- Variables are scalar in nature. In other words, a variable declaration can only 
-contain a single at a time. This means that to store n values in a program, n
-variable declarations will be needed. Hence, the use of variables is not feasible 
-when one needs to store a larger collection of values. 
- Variables in a program are allocated memory in random order, thereby making it 
-difficult to retrieve/read the values in the order of their declaration.
-JavaScript introduces the concept of arrays to tackle the same.
-An array is a homogenous collection of values. To simplify, an array is a collection of values 
-of the same data type. It is a user-defined type. 
-Features of anArray
- An array declaration allocates sequential memory blocks.
- Arrays are static. This means that an array once initialized cannot be resized.
- Each memory block represents an array element.
- Array elements are identified by a unique integer called as the subscript/index of 
-the element.
- Arrays too, like variables, should be declared before they are used.
- Array initialization refers to populating the array elements. 
- Array element values can be updated or modified but cannot be deleted. 
-Declaring and Initializing Arrays
-To declare and initialize an array in JavaScript use the following syntax:
-var array_name; //declaration
-array_name=[val1,val2,valn..] //initialization
-OR
-var array_name=[val1,val2…valn]
-Note: The pair of [] is called the dimension of the array.
+    The Number object represents numerical date, either integers or floating-point numbers. 
+In general, you do not need to worry about Number objects because the browser 
+automatically converts number literals to instances of the number class.
+Following is the syntax for creating a number object.
+var val = new Number(number);
+In the place of number, if you provide any non-number argument, then the argument 
+cannot be converted into a number, it returns NaN (Not-a-Number). 
+Number Properties
+Property Description
+Number.EPSILON The smallest interval between two representable 
+numbers
+Number.MAX_SAFE_INTEGER The maximum safe integer in JavaScript (2^53 - 1)
+Number.MAX_VALUE The largest positive representable number
+Number.MIN_SAFE_INTEGER The minimum safe integer in JavaScript (-(2^53 - 1))
+Number.MIN_VALUE
+The smallest positive representable number - that is, 
+the positive number closest to zero (without actually 
+being zero)
+Number.NaN Special "not a number" value
+Number.NEGATIVE_INFINITY Special value representing negative infinity; returned 
+on overflow
+Number.POSITIVE_INFINITY Special value representing infinity; returned on 
+overflow
+Number.prototype Allows the addition of properties to a Number object
